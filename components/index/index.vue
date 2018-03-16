@@ -25,6 +25,7 @@
 								<span></span>
 								<div style="padding-top:4vh;"></div>
 								<div class="zmiti-brage">
+									<img :src="imgs.haowai" alt="">
 								</div>
 								<div class="zmiti-haowai">
 									<img :src="imgs.brage" alt="">
