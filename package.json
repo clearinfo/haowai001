@@ -1,0 +1,52 @@
+{
+  "name": "xwords",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/clearinfo/haowai001.git",
+  "author": "clearinfo",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline --port 3008",
+    "build": "webpack -w --config webpack.build.config.js"
+  },
+  "dependencies": {
+    "babel-core": "^5.8.38",
+    "babel-helper-vue-jsx-merge-props": "^2.0.3",
+    "babel-loader": "^6.1.0",
+    "babel-plugin-import": "^1.1.0",
+    "babel-plugin-transform-object-assign": "^6.8.0",
+    "babel-plugin-transform-runtime": "^6.1.2",
+    "babel-plugin-transform-vue-jsx": "^3.5.0",
+    "babel-polyfill": "^6.9.0",
+    "babel-preset-es2015": "^6.1.2",
+    "babel-preset-stage-0": "^6.1.2",
+    "babel-runtime": "^5.8.0",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^0.8.5",
+    "html-loader": "^0.5.4",
+    "html-webpack-plugin": "^2.30.1",
+    "iscroll": "^5.2.0",
+    "jquery": "^2.2.3",
+    "less": "^2.5.3",
+    "less-loader": "^2.2.2",
+    "less-plugin-clean-css": "^1.5.1",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "velocity": "^0.7.2",
+    "velocity-animate": "^1.5.1",
+    "vue": "^2.5.13",
+    "vue-animated-list": "^1.0.2",
+    "vue-hot-reload-api": "^2.2.4",
+    "vue-html-loader": "^1.2.4",
+    "vue-loader": "^7.3.0",
+    "vue-style-loader": "^3.0.1",
+    "vue-template-compiler": "^2.5.2",
+    "webpack": "^1.15.0",
+    "webpack-dev-server": "^1.16.5"
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.38",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}

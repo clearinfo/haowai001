@@ -1,0 +1,32 @@
+[
+
+	{
+		"id": "1",
+		"img": "./assets/images/1.jpg",
+		"address": "广东",
+		"name": "杨飞飞",
+		"national": "汉族",
+		"audio": "./assets/music/1.mp3"
+	}, {
+		"id": "2",
+		"img": "./assets/images/1.jpg",
+		"address": "",
+		"name": "",
+		"national": "",
+		"audio": "./assets/music/1.mp3"
+	}, {
+		"id": "3",
+		"img": "./assets/images/1.jpg",
+		"address": "",
+		"name": "",
+		"national": "",
+		"audio": "./assets/music/1.mp3"
+	}, {
+		"id": "4",
+		"img": "./assets/images/1.jpg",
+		"address": "",
+		"name": "",
+		"national": "",
+		"audio": "./assets/music/1.mp3"
+	}
+]

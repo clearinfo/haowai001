@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=750,user-scalable=no" />
+	<title>2018年全国两会号外</title>
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />
+	<style>
+		
+	</style>
+	<script>
+		document.getElementsByTagName('html')[0].style.fontSize = 750 / 10 + 'px';
+		window.protocol = location.protocol;
+		
+		window.zmitiConfig = {
+			periods:1, //期数第N期
+			title:'xxx当选国家主席中央军委主席',
+			customid:43,
+			prevCustomIds:[],
+			newsContent:['在十三届全国人大一次会议17日上午举行的第五次全体会议上，xxx当选中华人民共和国主席、中华人民共和国中央军事委员会主席。'],
+			date:'2018年3月xx日',
+			height:0,
+			shareTitle:'我是第{{totalPv}}位收藏的2018年全国两会号外的人',
+			shareDesc:'我的专属编号是：第{{periods}}期 NO.{{pv}}',
+			h5name:'haowai001'
+
+		}
+
+		window.h5name = window.zmitiConfig.h5name;
+
+		window.customid = '2032998998';//两会号外
+
+		window.baseUrl = window.protocol+'//api.zmiti.com/v2';
+		window.wxappid = 'wxfacf4a639d9e3bcc';
+		window.wxappsecret='149cdef95c99ff7cab523d8beca86080';
+
+		window.server = 'api';
+		//xinhuanet
+		if(window.customid === '2032998998'){
+			window.baseUrl = window.protocol+'//h5.zhongguowangshi.com/'+h5name;
+			window.wxappid = 'wx5ec3d35069383211';
+			window.wxappsecret='d94ea41d9cd2ba03c7cab5fc0e212cec';
+		}
+		document.addEventListener('touchmove',function(e){e.preventDefault()},{passive:false});
+
+		
+	</script>
+	<style>
+		
+	</style>
+</head>
+<body style="background:#fff url(./assets/images/bg-body.jpg) repeat center;background-size: cover;">
+	<div id="app"></div>
+	
+	<!-- <script src='./assets/js/base.js'></script> -->
+	<script>
+
+
+		function loadScript(src){
+			var script = document.createElement('script');
+			script.src =src+'?t='+new Date().getTime();
+			document.body.appendChild(script)
+		}
+	    (function(){
+	       var script = document.createElement('script');
+	       script.src = window.protocol + '//res.wx.qq.com/open/js/jweixin-1.2.0.js';
+	       document.body.appendChild(script);
+	    })()
+  		//
+		/*
+
+		*/
+		loadScript('./assets/js/base.js');
+		loadScript('./assets/js/index.js');
+	</script>
+<!-- 
+	<script src='http://localhost:4022/index.js' onerror="loadScript('./assets/js/index.js')"></script> 
+-->
+</body>
+</html>
