@@ -35,17 +35,19 @@
 										<div v-for='c in newsContent'>{{c}}</div>
 									</div>
 								</div>
-								<div class="zmiti-index-bottom">
-									
+								<div class="zmiti-index-bottom">									
 									<div class="zmiti-copyright">
-										<div>
-											<div>{{date}}</div>
-											<div>新华社</div>
-										</div>
-										<div>
+										<div class="zmiti-copyright-xinhua">											
 											<img :src="imgs.logo" alt="">
+											<div>新华社客户端</div>
 										</div>
+										<div class="zmiti-work-pubdate">
+											
+												<div>{{date}}</div>
+											
+										</div>										
 									</div>
+									
 								</div>
 							</div>
 						</div>

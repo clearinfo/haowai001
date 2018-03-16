@@ -429,7 +429,7 @@ $color: #f7dd9c;
 				height: 100%;
 				left: 0;
 				top: 0;
-				color: $color;
+				color: #b42b2b;
 			}
 
 			&:nth-of-type(2) {
@@ -519,7 +519,7 @@ $color: #f7dd9c;
 .zmiti-index-main-content {
 	@include pos(r);
 	width: 10rem;
-	margin: .1rem auto;
+	margin:0 auto .1rem auto;
 	z-index: 10022;
 	left: 0;
 	top: 0;
@@ -553,7 +553,6 @@ $color: #f7dd9c;
 					z-index: -1;
 					height: 100%;
 					@include transform(scale(1.02, 1.015));
-					border: 4px solid $color;
 					box-sizing: border-box;
 				}
 
@@ -568,12 +567,12 @@ $color: #f7dd9c;
 		left: 0;
 		bottom: 0;
 		width: 100%;
-		height: 1.9rem;
+		height: 2rem;
 		@at-root.zmiti-collect {
 			width: 2.5rem;
 			@include pos(a);
 			z-index: 10;
-			bottom: 13vh;
+			bottom: 23vh;
 			right: .8rem;
 			border: 1px solid transparent;
 			@include transition(.1s);
@@ -589,7 +588,7 @@ $color: #f7dd9c;
 				left: 0;
 				top: 0;
 				text-align: center;
-				color: $color;
+				color: #b42b2b;
 				line-height: .86rem;
 			}
 
@@ -597,26 +596,31 @@ $color: #f7dd9c;
 
 		.zmiti-copyright {
 			@include pos(a);
-			width: 4rem;
-			@include displayBox(horizontal);
-			top: .5rem;
+			width: 9rem;			
+			top: .3rem;
 			right: .4rem;
-			text-align: right;
 			color: $color;
 			font-size: .4rem;
 
-			&>div {
-				&:nth-of-type(2) {
-					margin-left: .1rem;
+			.zmiti-copyright-xinhua {
+				text-align: center;
+				color: $color;
+				font-size: .4rem;
+				@include displayBox(horizontal);
+				img {
+					width: 1rem;
+					margin-right: 0.1rem;
 				}
-
 			}
-
-			img {
-				width: 1rem;
+			.zmiti-work-pubdate{
+				text-align: left;
+				color: $color;
+				padding:0 0 0.2rem 0;
 			}
 
 		}
+
+
 
 	}
 
@@ -676,7 +680,7 @@ $color: #f7dd9c;
 		margin: -2vh auto 0;
 		text-align: right;
 		@include pos(r);
-		padding-bottom: 16px;
+		padding-bottom: 0.1rem;
 		color: $color;
 		font-size: 40px;
 
@@ -702,9 +706,9 @@ $color: #f7dd9c;
 	}
 
 	.zmiti-news-C {
-		width: 8rem;
+		width: 8.6rem;
 		//height: 4rem;
-		margin: .2rem auto;
+		margin: 0 auto;
 
 		h1 {
 			color: $color;
@@ -721,10 +725,10 @@ $color: #f7dd9c;
 
 		.zmiti-news {
 			color: $color;
-			margin-top: .2rem;
+			margin-top: .15rem;
 
 			div {
-				line-height: .7rem;
+				line-height: .65rem;
 				text-indent: 2em;
 				text-align: justify;
 			}
